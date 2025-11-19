@@ -1,0 +1,9 @@
+{
+    "pgm_name": "ZTEST_RULE115_COMBINED",
+    "inc_name": "ZTEST_RULE115_COMB_INC",
+    "type": "PROG",
+    "name": "MAIN_BLOCK",
+    "start_line": 5,
+    "end_line": 200,
+    "code": "DATA lv_text TYPE string.\nDATA lv_xbin TYPE xstring.\nSHIFT lv_text LEFT BY 1 PLACES.\nSHIFT lv_text LEFT BY 1 PLACES IN CHARACTER MODE.\nSHIFT lv_xbin RIGHT BY 2 PLACES.\nSHIFT lv_xbin RIGHT BY 2 PLACES IN BYTE MODE.\n"
+}
